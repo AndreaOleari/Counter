@@ -1,0 +1,39 @@
+.Counter {
+  text-align: center;
+}
+
+.Counter-logo {
+  animation: Counter-logo-spin infinite 15s linear;
+  height: 40vmin;
+  display: block;
+  margin: 0% auto;
+}
+
+.Counter-header {
+  background-color: green;
+  min-height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+button{
+	width:150px;
+	height:50px;
+	margin-top:20px;
+}
+
+.Counter-link {
+  color: #61dafb;
+}
+
+@keyframes Counter-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
